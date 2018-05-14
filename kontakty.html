@@ -1,0 +1,153 @@
+﻿<!DOCTYPE html> 
+
+<html lang="cs">
+
+   <head>
+     <meta charset="utf-8" />
+     <meta name="description" content="Stručný popis stránky (SEO)" />
+     <meta name="keywords" content="Klíčová slova stránky (SEO)" />
+     <meta name="author" content="all: jméno; e-mail" />
+     <meta name="robots" content="index, follow" />
+     <meta name="googlebot" content="index, follow, snippet, archive" />
+
+     <meta name="viewport" content="width=device-width, initial-scale=1" /> <!-- pro responzivní web, viz např. www.vzhurudolu.cz/prirucka/viewport-meta -->
+     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" /> <!-- optimalizace pro iPhone X --> 
+
+     <title>ARGO Ostrava</title>
+
+     <link rel="stylesheet" type="text/css" href="style.css" media="screen" /> <!-- shodné zobrazení na všech zařízeních -->
+   </head>
+
+   <body>
+       <script>
+           function initMap() {
+               var uluru = {lat: 49.8227831, lng: 18.2702158};
+               var map = new google.maps.Map(document.getElementById('map'), {
+                   zoom: 15,
+                   center: uluru
+               });
+               var marker = new google.maps.Marker({
+                   position: uluru,
+                   map: map
+               });
+           }
+       </script>
+       <script async defer
+               src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC6G_CuuHhKTzuWNGpvinMPVoHftRXv0II&callback=initMap">
+       </script>
+
+     <main> <!-- Nový HTML5 element místo <div id="main"> -->
+       <header>
+         <h1>ARGO</h1>
+         <h1>klub potápěčů  Ostrava</h1>
+         <h2>Pobočný spolek SPMS</h2>
+       </header>
+
+       <nav>
+           <ul>
+               <li><a href="index.html">O nás</a></li>
+               <li><a href="kontakty.html">Kontakty</a></li>
+               <li><a href="kalendarAkci.html">Kalendář akcí</a></li>
+               <li><a href="informace.html">Informace</a></li>
+               <li><a href="historie.html">Historie</a></li>
+               <li><a href="fotogalerie.html">Galerie</a></li>
+               <li></ul>
+       </nav>
+         <section>
+             <header>Kontakty</header>
+             <article>
+                 ARGO - klub potápěčů, pobočný spolek SPMS
+             </article>
+             <article>
+                 IČ:   623 48 531
+             </article>
+             <article>
+                 Sládkova  2666/27
+             </article>
+             <article>
+                 Ostrava-Moravská Ostrava
+             </article>
+             <article>
+                 702 00
+             </article>
+             <article>
+                 Telefefon: 595533940
+             </article>
+             <article>
+                 E-mail: info@argoostrava.cz
+             </article>
+             <article>
+                 Datová schránka: gb2bv5w
+             </article>
+             <article>
+                 Číslo účtu: 35-1762400267/0100
+             </article>
+             <article>
+                 GPS: 49.8362750N  18.2706239E
+             </article>
+
+             <table border="2px;">
+                 <tr>
+                     <td>
+                         <output>Předseda</output>
+                     </td>
+                     <td>
+                         <output>Miroslav Lošák</output>
+                     </td>
+                     <td>
+                         <output>773281451</output>
+                     </td>
+                     <td>
+                         <output>predseda@argoostrava.cz</output>
+                     </td>
+                 </tr>
+                 <tr>
+                     <td>
+                         <output>Místopředseda</output>
+                     </td>
+                     <td>
+                         <output>ing.Pavel Zavadil</output>
+                     </td>
+                     <td>
+                         <output>774195180</output>
+                     </td>
+                     <td>
+                         <output>mpredseda@argoostrava.cz</output>
+                     </td>
+                 </tr>
+                 <tr>
+                     <td>
+                         <output>Ekonom</output>
+                     </td>
+                     <td>
+                         <output>ing.Dagmar Koniariková</output>
+                     </td>
+                     <td>
+                         <output>603824670</output>
+                     </td>
+                     <td>
+                         <output>ekonom@argoostrava.cz</output>
+                     </td>
+                 </tr>
+                 <tr>
+                     <td>
+                         <output>Předseda KK</output>
+                     </td>
+                     <td>
+                         <output>Oldřich Uher</output>
+                     </td>
+                     <td>
+                         <output>721714334</output>
+                     </td>
+                     <td>
+                         <output>kon.komise@argoostrava.cz</output>
+                     </td>
+                 </tr>
+             </table>
+             <br/>
+             <article>Budova klubu: Gajdošova 3262/59A</article>
+             <div id="map"></div>
+         </section>
+     </main>
+   </body>
+</html>
