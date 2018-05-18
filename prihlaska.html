@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>my new project</title>
+</head>
+<body>
+
+<script language="JavaScript">
+    var frmvalidator  = new Validator("contactform");
+    frmvalidator.addValidation("name","req","Prosím vyplňte jméno a příjmení!");
+    frmvalidator.addValidation("gender","req","Prosím vyplňte, zda jste muž nebo žena!");
+    frmvalidator.addValidation("address","req","Prosím vyplňte adresu trvalého bydliště!");
+    frmvalidator.addValidation("email","req","Prosím vyplňte svou emailovou adresu!");
+    frmvalidator.addValidation("email","email","Prosím vyplňte emailovou adresu ve správném formátu!");
+</script>
+
+<form method="post" name="contact_form"
+      action="emailHandler.php">
+    Jméno a příjmení*:
+    <input type="text" name="name">
+    Pohlaví (M/Ž)*:
+    <input type="text" name="gender">
+    Trvalé bydliště*:
+    <input type="text" name="address">
+    Kontaktní spojení*:
+    <input type="text" name="email">
+    <input type="submit" value="Submit">
+</form>
+</body>
+</html>
