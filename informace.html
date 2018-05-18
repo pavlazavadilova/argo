@@ -22,7 +22,15 @@
 
    <body>
 
-     <main> <!-- Nový HTML5 element místo <div id="main"> --> 
+     <main> <!-- Nový HTML5 element místo <div id="main"> -->
+       <script language="JavaScript">
+          var frmvalidator  = new Validator("contactform");
+          frmvalidator.addValidation("name","req","Prosím vyplňte jméno a příjmení!");
+          frmvalidator.addValidation("gender","req","Prosím vyplňte, zda jste muž nebo žena!");
+          frmvalidator.addValidation("address","req","Prosím vyplňte adresu trvalého bydliště!");
+          frmvalidator.addValidation("email","req","Prosím vyplňte svou emailovou adresu!");
+          frmvalidator.addValidation("email","email","Prosím vyplňte emailovou adresu ve správném formátu!");
+       </script>
 
        <header>
          <h1>ARGO</h1>
@@ -32,9 +40,10 @@
 
        <nav>
            <ul>
-               <li><a href="index.html.html">O nás</a></li>
+               <li><a href="index.html">O nás</a></li>
                <li><a href="kontakty.html">Kontakty</a></li>
                <li><a href="kalendarAkci.html">Kalendář akcí</a></li>
+               <li><a href="novinky.html">Novinky</a></li>
                <li><a href="informace.html">Informace</a></li>
                <li><a href="historie.html">Historie</a></li>
                <li><a href="fotogalerie.html">Galerie</a></li>
@@ -43,8 +52,55 @@
          <section>
              <header>Informace</header>
              <article>
-
+                 V případě, že se chcete stát členy klubu potápěčů ARGO Ostrava, vyplňte prosím přihlášovací formulář níže a klikněte na tlačítko "Odeslat"<br/>
              </article>
+
+             <form class="contactForm" method="post" name="contact_form" action="emailHandler.php">
+                 <table>
+                     <tr>
+                         <td>
+                             <output>Jméno a příjmení*:</output>
+                         </td>
+                         <td>
+                             <input type="text" name="name" style="width: 95%; height: 95%">
+                         </td>
+                     </tr>
+                     <tr>
+                         <td>
+                             <output>Pohlaví (M/Ž)*:</output>
+                         </td>
+                         <td>
+                             <input type="text" name="gender" style="width: 95%; height: 95%">
+                         </td>
+                     </tr>
+                     <tr>
+                         <td>
+                             <output>Trvalé bydliště*:</output>
+                         </td>
+                         <td>
+                             <input type="text" name="address" style="width: 95%; height: 95%">
+                         </td>
+                     </tr>
+                     <tr>
+                         <td>
+                             <output>Kontaktní spojení*:</output>
+                         </td>
+                         <td>
+                             <input type="text" name="email" style="width: 95%; height: 95%">
+                         </td>
+                     </tr>
+                 </table>
+                 <input type="submit" class="submitButton" value="Submit" style="width: 65%; height: 95%; position: center">
+             </form>
+
+             <!--<article>
+                 V případě, že se chcete stát členy klubu potápěčů ARGO Ostrava, vyplňte prosím přihlášku a zašlete ji na adresu info@argoostrava.cz<br/>
+                 Přihláška je k dispozici ke stažení zde <a href="/argo/sources/prihlaska.doc">ZDE</a>.
+             </article>-->
+
+
+
+
          </section>
      </main>
    </body>
