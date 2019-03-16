@@ -105,7 +105,7 @@ section header {
   text-align: center;
   font-family: 'Arial';
   text-transform: uppercase;
-  padding-top: 0px;
+  padding-top: 50px;
   font-size: 2rem;
   color: white;
   letter-spacing: 4px;
@@ -113,7 +113,7 @@ section header {
 }
 
 article {
-  padding-top: 10px;
+  padding-top: 30px;
   font-size: 20px;
   color: white;
   text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
