@@ -1,74 +1,93 @@
-﻿<!DOCTYPE html> 
+﻿<!DOCTYPE html>
 
 <html lang="cs">
 
-   <head>
-     <meta charset="utf-8" />
-     <meta name="description" content="Stručný popis stránky (SEO)" />
-     <meta name="keywords" content="Klíčová slova stránky (SEO)" />
-     <meta name="author" content="all: jméno; e-mail" />
-     <meta name="robots" content="index, follow" />
-     <meta name="googlebot" content="index, follow, snippet, archive" />
+<head>
+    <meta charset="utf-8" />
+    <meta name="description" content="Stručný popis stránky (SEO)" />
+    <meta name="keywords" content="argo ostava" />
+    <meta name="author" content="all: jméno; e-mail" />
+    <meta name="robots" content="index, follow" />
+    <meta name="googlebot" content="index, follow, snippet, archive" />
 
-     <meta name="viewport" content="width=device-width, initial-scale=1" /> <!-- pro responzivní web, viz např. www.vzhurudolu.cz/prirucka/viewport-meta -->
-     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" /> <!-- optimalizace pro iPhone X --> 
+    <meta name="viewport" content="width=device-width, initial-scale=1" /> <!-- pro responzivní web, viz např. www.vzhurudolu.cz/prirucka/viewport-meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" /> <!-- optimalizace pro iPhone X -->
 
-     <title>ARGO Ostrava</title>
+    <title>ARGO Ostrava</title>
 
-     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
 
-     <link rel="stylesheet" type="text/css" href="style.css" media="screen" /> <!-- shodné zobrazení na všech zařízeních -->
-   </head>
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen and (min-device-width: 800px)" /> <!-- shodné zobrazení na všech zařízeních -->
+    <link rel="stylesheet" type="text/css" href="styleMobile.css" media="screen and (max-device-width: 800px)" />
+</head>
 
-   <body>
+<script>
+    function myFunction() {
+        var x = document.getElementById("myLinks");
+        if (x.style.display === "block") {
+            x.style.display = "none";
+        } else {
+            x.style.display = "block";
+        }
+    }
+</script>
 
-     <main> <!-- Nový HTML5 element místo <div id="main"> --> 
+<body>
+<main> <!-- Nový HTML5 element místo <div id="main"> -->
 
-       <header>
-         <h1>ARGO</h1>
-         <h1>klub potápěčů  Ostrava</h1>
-         <h2>Pobočný spolek SPMS</h2>
-       </header>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <img src="menuIcon.jpg"/>
+    </a>
 
-       <nav>
-           <ul>
-               <li><a href="index.html">O nás</a></li>
-               <li><a href="kontakty.html">Kontakty</a></li>
-               <li><a href="kalendarAkci.html">Kalendář akcí</a></li>
-               <li><a href="novinky.html">Novinky</a></li>
-               <li><a href="informace.html">Informace</a></li>
-               <li><a href="historie.html">Historie</a></li>
-               <li><a href="fotogalerie.html">Galerie</a></li>
-               <li></ul>
-       </nav>
-         <section>
-             <header>Fotogalerie</header>
+    <header>
+        <h1>ARGO</h1>
+        <h1>klub potápěčů  Ostrava</h1>
+        <h2>Pobočný spolek SPMS</h2>
+    </header>
 
-             <article>Fotogalerii pro Vás v současné chvíli připravujeme. Máte-li nějaké fotografie, o které byste se rádi podělili
-             s ostatními členy klubu, zašlete je spolu se stručným popisem na email info@argoostrava.cz</article>
+    <nav id="myLinks">
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <img src="menuIcon.jpg"/>
+        </a>
+        <ul>
+            <li><a href="index.html">O nás</a></li>
+            <li><a href="kontakty.html">Kontakty</a></li>
+            <li><a href="kalendarAkci.html">Kalendář akcí</a></li>
+            <li><a href="novinky.html">Novinky</a></li>
+            <li><a href="informace.html">Informace</a></li>
+            <li><a href="historie.html">Historie</a></li>
+            <li><a href="fotogalerie.html">Galerie</a></li>
+            <li></ul>
+    </nav>
+    <section>
+        <header>O nás</header>
+        <header>Fotogalerie</header>
 
+        <article>Fotogalerii pro Vás v současné chvíli připravujeme. Máte-li nějaké fotografie, o které byste se rádi podělili
+            s ostatními členy klubu, zašlete je spolu se stručným popisem na email info@argoostrava.cz
+        </article>
 
-             <!--<div class="gallery">
-                 <a target="_blank" href="/argo/fotogalerie/potapeni.html">
-                     <img src="/argo/fotogalerie/potapeni/divingIcon.jpg" alt="Potápění">
-                 </a>
-                 <div class="desc">Potápění</div>
-             </div>
+        <div class="gallery">
+            <a target="_blank" href="/fotogalerie/brigada.html">
+                <img src="fotogalerie/brigada/100_0892.JPG" alt="2018">
+            </a>
+            <div class="desc">Brigáda</div>
+        </div>
 
-             <div class="gallery">
-                 <a target="_blank" href="/argo/fotogalerie/voda.html">
-                     <img src="/argo/fotogalerie/voda/voda.jpg" alt="Voda">
-                 </a>
-                 <div class="desc">Voda</div>
-             </div>
+        <div class="gallery">
+            <a target="_blank" href="/fotogalerie/potapeni.html">
+                <img src="fotogalerie/potapeni/jirka_roman.JPG" alt="Potápění">
+            </a>
+            <div class="desc">Potápění</div>
+        </div>
 
-             <div class="gallery">
-                 <a target="_blank" href="/argo/fotogalerie/jine.html">
-                     <img src="/argo/fotogalerie/jine/hawai2.jpg" alt="Jiné">
-                 </a>
-                 <div class="desc">Jiné</div>
-             </div>-->
-         </section>
-     </main>
-   </body>
+        <div class="gallery">
+            <a target="_blank" href="/fotogalerie/jine.html">
+                <img src="fotogalerie/jine/IMG_7374.JPG" alt="Jiné">
+            </a>
+            <div class="desc">Jiné</div>
+        </div>
+    </section>
+</main>
+</body>
 </html>

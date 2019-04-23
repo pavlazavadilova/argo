@@ -107,3 +107,8 @@ div#image-1 { left: 0; }
 div#image-2 { left: 300px; }
 div#image-3 { left: 600px; }
 div#image-4 { left: 900px; }
+
+div#image-5 { left: 0; top: 200px; }
+div#image-6 { left: 300px; top: 200px; }
+div#image-7 { left: 600px; top: 200px; }
+div#image-8 { left: 900px; top: 200px; }

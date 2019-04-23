@@ -150,6 +150,11 @@ nav ul {
   margin: 0;
   padding-top: 300px;
 }
+
+.icon {
+  display: none;
+}
+
 nav ul li {
   /* Sub Menu */
 }
@@ -206,7 +211,7 @@ nav ul li ul li a:hover {
   float: left;
 }
 
-table {
+#desktopTable{
   width: 100%;
   border: white;
   text-align: left;
@@ -217,19 +222,22 @@ table {
   color: white;
 }
 
-table td {
+#desktopTable td{
   height: 40px;
 }
 
-table output {
+#desktopTable td input{
+  width: 100%;
+}
+
+#desktopTable output{
   font-size: 18px;
   padding: 10px;
   margin: 10px 0px 10px 0px;
-
 }
 
-table td input {
-  width: 100%;
+#mobileTable {
+  display: none;
 }
 
 #map {

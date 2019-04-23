@@ -1,76 +1,68 @@
-﻿<!DOCTYPE html> 
+﻿<!DOCTYPE html>
 
 <html lang="cs">
 
-   <head>
-     <meta charset="utf-8" />
-     <meta name="description" content="Stručný popis stránky (SEO)" />
-     <meta name="keywords" content="Klíčová slova stránky (SEO)" />
-     <meta name="author" content="all: jméno; e-mail" />
-     <meta name="robots" content="index, follow" />
-     <meta name="googlebot" content="index, follow, snippet, archive" />
+<head>
+    <meta charset="utf-8" />
+    <meta name="description" content="Stručný popis stránky (SEO)" />
+    <meta name="keywords" content="argo ostava" />
+    <meta name="author" content="all: jméno; e-mail" />
+    <meta name="robots" content="index, follow" />
+    <meta name="googlebot" content="index, follow, snippet, archive" />
 
-     <meta name="viewport" content="width=device-width, initial-scale=1" /> <!-- pro responzivní web, viz např. www.vzhurudolu.cz/prirucka/viewport-meta -->
-     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" /> <!-- optimalizace pro iPhone X --> 
+    <meta name="viewport" content="width=device-width, initial-scale=1" /> <!-- pro responzivní web, viz např. www.vzhurudolu.cz/prirucka/viewport-meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" /> <!-- optimalizace pro iPhone X -->
 
-     <title>ARGO Ostrava</title>
+    <title>ARGO Ostrava</title>
 
-     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
 
-     <link rel="stylesheet" type="text/css" href="style.css" media="screen" /> <!-- shodné zobrazení na všech zařízeních -->
-   </head>
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen and (min-device-width: 800px)" /> <!-- shodné zobrazení na všech zařízeních -->
+    <link rel="stylesheet" type="text/css" href="styleMobile.css" media="screen and (max-device-width: 800px)" />
+</head>
 
-   <body>
+<script>
+    function myFunction() {
+        var x = document.getElementById("myLinks");
+        if (x.style.display === "block") {
+            x.style.display = "none";
+        } else {
+            x.style.display = "block";
+        }
+    }
+</script>
 
-     <main> <!-- Nový HTML5 element místo <div id="main"> --> 
+<body>
+<main> <!-- Nový HTML5 element místo <div id="main"> -->
 
-       <header>
-         <h1>ARGO</h1>
-         <h1>klub potápěčů  Ostrava</h1>
-         <h2>Pobočný spolek SPMS</h2>
-       </header>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <img src="menuIcon.jpg"/>
+    </a>
 
-       <nav>
-           <ul>
-               <li><a href="index.html">O nás</a></li>
-               <li><a href="kontakty.html">Kontakty</a></li>
-               <li><a href="kalendarAkci.html">Kalendář akcí</a></li>
-               <li><a href="novinky.html">Novinky</a></li>
-               <li><a href="informace.html">Informace</a></li>
-               <li><a href="historie.html">Historie</a></li>
-               <li><a href="fotogalerie.html">Galerie</a></li>
-               <li></ul>
-       </nav>
-         <section>
-             <header>Kalendář akcí</header>
-             <article>
-                 Březen:
-                 <ul>
-                     <li>Členská schůze</li>
-                     <li>19.3.2019 od 16:30 v restauraci U Chýlků</li>
-                     <li>Více informací je k dispozici <a href="sources/schuze_19.docx">ZDE</a></li>
-                 </ul>
-             </article>
+    <header>
+        <h1>ARGO</h1>
+        <h1>klub potápěčů  Ostrava</h1>
+        <h2>Pobočný spolek SPMS</h2>
+    </header>
 
-             <article>
-                 Květen:
-                 <ul>
-                     <li>Výjezd členů potápčského klubu ARGO na Tremitské ostrovy v Itálii</li>
-                     <li>25.5. - 2.6.2019</li>
-                     <li>Více informací je k dispozici <a href="sources/vyjezdItalie.pdf">ZDE</a></li>
-                 </ul>
-             </article>
-
-             <article>
-                 Říjen:
-                 <ul>
-                     <li>Podzimní seminář</li>
-                     <li>11.10. - 13.10.2019 Penzion Chiranka, Lipová Lázně</li>
-                     <li>Více informací o penzionu je k dispozici <a href="http://www.heliosjeseniky.cz/penzion-chirankahttp://www.heliosjeseniky.cz/penzion-chiranka">ZDE</a></li>
-                 </ul>
-             </article>
-
-         </section>
-     </main>
-   </body>
+    <nav id="myLinks">
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <img src="menuIcon.jpg"/>
+        </a>
+        <ul>
+            <li><a href="index.html">O nás</a></li>
+            <li><a href="kontakty.html">Kontakty</a></li>
+            <li><a href="kalendarAkci.html">Kalendář akcí</a></li>
+            <li><a href="novinky.html">Novinky</a></li>
+            <li><a href="informace.html">Informace</a></li>
+            <li><a href="historie.html">Historie</a></li>
+            <li><a href="fotogalerie.html">Galerie</a></li>
+            <li></ul>
+    </nav>
+    <section>
+        <header>Kalendář akcí</header>
+        <iframe src="https://calendar.google.com/calendar/embed?src=b7auif34462b6k3h1u0m1ji40g%40group.calendar.google.com&ctz=Europe%2FPrague" style="padding-top:50px; border: 0" width="100%" height="400" frameborder="0" scrolling="no"></iframe>
+    </section>
+</main>
+</body>
 </html>

@@ -1,58 +1,83 @@
-﻿<!DOCTYPE html> 
+﻿<!DOCTYPE html>
 
 <html lang="cs">
 
-   <head>
-     <meta charset="utf-8" />
-     <meta name="description" content="Stručný popis stránky (SEO)" />
-     <meta name="keywords" content="Klíčová slova stránky (SEO)" />
-     <meta name="author" content="all: jméno; e-mail" />
-     <meta name="robots" content="index, follow" />
-     <meta name="googlebot" content="index, follow, snippet, archive" />
+<head>
+    <meta charset="utf-8" />
+    <meta name="description" content="Stručný popis stránky (SEO)" />
+    <meta name="keywords" content="argo ostava" />
+    <meta name="author" content="all: jméno; e-mail" />
+    <meta name="robots" content="index, follow" />
+    <meta name="googlebot" content="index, follow, snippet, archive" />
 
-     <meta name="viewport" content="width=device-width, initial-scale=1" /> <!-- pro responzivní web, viz např. www.vzhurudolu.cz/prirucka/viewport-meta -->
-     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" /> <!-- optimalizace pro iPhone X --> 
+    <meta name="viewport" content="width=device-width, initial-scale=1" /> <!-- pro responzivní web, viz např. www.vzhurudolu.cz/prirucka/viewport-meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" /> <!-- optimalizace pro iPhone X -->
 
-     <title>ARGO Ostrava</title>
+    <title>ARGO Ostrava</title>
 
-     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
 
-     <link rel="stylesheet" type="text/css" href="style.css" media="screen" /> <!-- shodné zobrazení na všech zařízeních -->
-   </head>
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen and (min-device-width: 800px)" /> <!-- shodné zobrazení na všech zařízeních -->
+    <link rel="stylesheet" type="text/css" href="styleMobile.css" media="screen and (max-device-width: 800px)" />
+</head>
 
-   <body>
+<script>
+    function myFunction() {
+        var x = document.getElementById("myLinks");
+        if (x.style.display === "block") {
+            x.style.display = "none";
+        } else {
+            x.style.display = "block";
+        }
+    }
+</script>
 
-     <main> <!-- Nový HTML5 element místo <div id="main"> --> 
+<body>
+<main> <!-- Nový HTML5 element místo <div id="main"> -->
 
-       <header>
-         <h1>ARGO</h1>
-         <h1>klub potápěčů  Ostrava</h1>
-         <h2>Pobočný spolek SPMS</h2>
-       </header>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <img src="menuIcon.jpg"/>
+    </a>
 
-       <nav>
-           <ul>
-               <li><a href="index.html">O nás</a></li>
-               <li><a href="kontakty.html">Kontakty</a></li>
-               <li><a href="kalendarAkci.html">Kalendář akcí</a></li>
-               <li><a href="novinky.html">Novinky</a></li>
-               <li><a href="informace.html">Informace</a></li>
-               <li><a href="historie.html">Historie</a></li>
-               <li><a href="fotogalerie.html">Galerie</a></li>
-               <li></ul>
-       </nav>
-         <section>
-             <header>Novinky</header>
-             <h4>Podzimní semninář</h4>
-             <article>Dávám vám tímto na vědomí, že na dny 11.10  - 13.10.2019 je plánovaný výjezd ARGA do jeseníků a to konkrétně do místa Lipová Lázně, penzion <a target="_blank" href="http://www.heliosjeseniky.cz/penzion-chiranka">Chiranka</a>.
-                 Cena výjezdu je 500,- Kč na člena klubu.
-                 Prosím zájemce o tuto akci, aby si na členskou schůzi přinesli 500,- Kč. Bude se vybírat záloha. Nepůjde to přes účet, ale osobně.
-             </article>
-             <h4>Členská schůze</h4>
-             <article>
-                 Dne 19.března 2019 proběhne v salónku restaurace  U Chýlků členská schůze klubu ARGO. Zahájení je v 16:30 hod. Prosím všechny členy, kteří se zúčastní,aby zpětně potvrdili svou účast z důvodu zajištění občerstvení.
-             </article>
-         </section>
-     </main>
-   </body>
+    <header>
+        <h1>ARGO</h1>
+        <h1>klub potápěčů  Ostrava</h1>
+        <h2>Pobočný spolek SPMS</h2>
+    </header>
+
+    <nav id="myLinks">
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <img src="menuIcon.jpg"/>
+        </a>
+        <ul>
+            <li><a href="index.html">O nás</a></li>
+            <li><a href="kontakty.html">Kontakty</a></li>
+            <li><a href="kalendarAkci.html">Kalendář akcí</a></li>
+            <li><a href="novinky.html">Novinky</a></li>
+            <li><a href="informace.html">Informace</a></li>
+            <li><a href="historie.html">Historie</a></li>
+            <li><a href="fotogalerie.html">Galerie</a></li>
+            <li></ul>
+    </nav>
+    <section>
+        <header>Novinky</header>
+        <article>Orlice</article>
+        <article>O víkendu 3.-5.5.2019 proběhne sjezd Divoké Orlice. Podrobnosti o této akci naleznete
+        <a href="sources/ORLICE2019.doc">ZDE</a></article>
+        <article>Podzimní semninář</article>
+        <article>Dávám vám tímto na vědomí, že na dny 11.10  - 13.10.2019 je plánovaný výjezd ARGA do jeseníků a to konkrétně do místa Lipová Lázně, penzion <a target="_blank" href="http://www.heliosjeseniky.cz/penzion-chiranka">Chiranka</a>.
+            Cena výjezdu je 500,- Kč na člena klubu.
+            Prosím zájemce o tuto akci, aby si na členskou schůzi přinesli 500,- Kč. Bude se vybírat záloha. Nepůjde to přes účet, ale osobně.
+        </article>
+        <article>Členská schůze</article>
+        <article>
+            Dne 19.března 2019 proběhne v salónku restaurace  U Chýlků členská schůze klubu ARGO. Zahájení je v 16:30 hod. Prosím všechny členy, kteří se zúčastní,aby zpětně potvrdili svou účast z důvodu zajištění občerstvení.
+        </article>
+        <article>Bazén</article>
+        <article>
+            Dávám ve známost, že nám byla potvrzena objednávka jedné dráhy na bazénu VODNÍ SVĚT. To znamená, že od pátku 11.1.2019 až do pátku 26.4.2019 je možné, každý pátek od 17:00 hod do 18:00 hod si zaplavat, nebo zablbnout na krytém bazénu v Ostravě 1. Snažte se proto tuto nabídku využívat co nejhojněji, ať to nejsou vyhozené peníze.
+        </article>
+    </section>
+</main>
+</body>
 </html>

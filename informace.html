@@ -1,70 +1,81 @@
-﻿<!DOCTYPE html> 
+﻿<!DOCTYPE html>
 
 <html lang="cs">
 
-   <head>
-     <meta charset="utf-8" />
-     <meta name="description" content="Stručný popis stránky (SEO)" />
-     <meta name="keywords" content="Klíčová slova stránky (SEO)" />
-     <meta name="author" content="all: jméno; e-mail" />
-     <meta name="robots" content="index, follow" />
-     <meta name="googlebot" content="index, follow, snippet, archive" />
+<head>
+    <meta charset="utf-8" />
+    <meta name="description" content="Stručný popis stránky (SEO)" />
+    <meta name="keywords" content="argo ostava" />
+    <meta name="author" content="all: jméno; e-mail" />
+    <meta name="robots" content="index, follow" />
+    <meta name="googlebot" content="index, follow, snippet, archive" />
 
-     <meta name="viewport" content="width=device-width, initial-scale=1" /> <!-- pro responzivní web, viz např. www.vzhurudolu.cz/prirucka/viewport-meta -->
-     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" /> <!-- optimalizace pro iPhone X --> 
+    <meta name="viewport" content="width=device-width, initial-scale=1" /> <!-- pro responzivní web, viz např. www.vzhurudolu.cz/prirucka/viewport-meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" /> <!-- optimalizace pro iPhone X -->
 
-     <title>ARGO Ostrava</title>
+    <title>ARGO Ostrava</title>
 
-     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
 
-     <link rel="stylesheet" type="text/css" href="style.css" media="screen" /> <!-- shodné zobrazení na všech zařízeních -->
-   </head>
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen and (min-device-width: 800px)" /> <!-- shodné zobrazení na všech zařízeních -->
+    <link rel="stylesheet" type="text/css" href="styleMobile.css" media="screen and (max-device-width: 800px)" />
+</head>
 
-   <body>
+<script>
+    function myFunction() {
+        var x = document.getElementById("myLinks");
+        if (x.style.display === "block") {
+            x.style.display = "none";
+        } else {
+            x.style.display = "block";
+        }
+    }
+</script>
 
-     <main> <!-- Nový HTML5 element místo <div id="main"> -->
-       <script language="JavaScript">
-          var frmvalidator  = new Validator("contactform");
-          frmvalidator.addValidation("name","req","Prosím vyplňte jméno a příjmení!");
-          frmvalidator.addValidation("gender","req","Prosím vyplňte, zda jste muž nebo žena!");
-          frmvalidator.addValidation("address","req","Prosím vyplňte adresu trvalého bydliště!");
-          frmvalidator.addValidation("email","req","Prosím vyplňte svou emailovou adresu!");
-          frmvalidator.addValidation("email","email","Prosím vyplňte emailovou adresu ve správném formátu!");
-       </script>
+<body>
+<main> <!-- Nový HTML5 element místo <div id="main"> -->
 
-       <header>
-         <h1>ARGO</h1>
-         <h1>klub potápěčů  Ostrava</h1>
-         <h2>Pobočný spolek SPMS</h2>
-       </header>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <img src="menuIcon.jpg"/>
+    </a>
 
-       <nav>
-           <ul>
-               <li><a href="index.html">O nás</a></li>
-               <li><a href="kontakty.html">Kontakty</a></li>
-               <li><a href="kalendarAkci.html">Kalendář akcí</a></li>
-               <li><a href="novinky.html">Novinky</a></li>
-               <li><a href="informace.html">Informace</a></li>
-               <li><a href="fotogalerie.html">Galerie</a></li>
-               <li></ul>
-       </nav>
-         <section>
-             <header>Informace</header>
+    <header>
+        <h1>ARGO</h1>
+        <h1>klub potápěčů  Ostrava</h1>
+        <h2>Pobočný spolek SPMS</h2>
+    </header>
 
-             <h4>Jak se stát členem</h4>
-             <article>
-                 V případě, že se chcete stát členy klubu potápěčů ARGO Ostrava, vyplňte prosím přihlášku a zašlete ji na adresu info@argoostrava.cz<br/>
-                 Přihláška je k dispozici ke stažení zde <a href="sources/prihlaska.doc">ZDE</a>.
-             </article>
+    <nav id="myLinks">
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <img src="menuIcon.jpg"/>
+        </a>
+        <ul>
+            <li><a href="index.html">O nás</a></li>
+            <li><a href="kontakty.html">Kontakty</a></li>
+            <li><a href="kalendarAkci.html">Kalendář akcí</a></li>
+            <li><a href="novinky.html">Novinky</a></li>
+            <li><a href="informace.html">Informace</a></li>
+            <li><a href="historie.html">Historie</a></li>
+            <li><a href="fotogalerie.html">Galerie</a></li>
+            <li></ul>
+    </nav>
+    <section>
+        <header>Informace</header>
 
-             <h4>Dokumenty ke stažení</h4>
-             <article>
-                 Podrobné informace o fungování a organizaci klubu potápěčů ARGO si můžete pročíst ve stanovách klubu,
-                 které naleznete <a target="_blank" href="sources/stanovyARGO.pdf">ZDE</a><br><br>
-                 Klub je oficálně registrován ve spolkovém rejstříku vedeném Krajským soudem v Brně.
-                 Výpis z tohoto rejstříku je k nahlédnutí <a target="_blank" href="sources/vypisARGO.pdf">ZDE</a>
-             </article>
-         </section>
-     </main>
-   </body>
+        <article>Jak se stát členem</article>
+        <article>
+            V případě, že se chcete stát členy klubu potápěčů ARGO Ostrava, vyplňte prosím přihlášku a zašlete ji na adresu info@argoostrava.cz<br/>
+            Přihláška je k dispozici ke stažení zde <a href="sources/prihlaska.doc">ZDE</a>.
+        </article>
+
+        <article>Dokumenty ke stažení</article>
+        <article>
+            Podrobné informace o fungování a organizaci klubu potápěčů ARGO si můžete pročíst ve stanovách klubu,
+            které naleznete <a target="_blank" href="sources/stanovyARGO.pdf">ZDE</a><br><br>
+            Klub je oficálně registrován ve spolkovém rejstříku vedeném Krajským soudem v Brně.
+            Výpis z tohoto rejstříku je k nahlédnutí <a target="_blank" href="sources/vypisARGO.pdf">ZDE</a>
+        </article>
+    </section>
+</main>
+</body>
 </html>
