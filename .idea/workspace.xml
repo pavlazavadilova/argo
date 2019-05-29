@@ -2,37 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f6af5d6b-50c2-43ca-b75a-97670b370022" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/fotogalerie/brigada/100_0892.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fotogalerie/brigada/100_0893.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fotogalerie/brigada/100_0894.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fotogalerie/jine/IMG_7373.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fotogalerie/jine/IMG_7374.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fotogalerie/jine/SD SPMS 17.3.2018.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fotogalerie/potapeni/Egypt 2007 S. 66.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fotogalerie/potapeni/jirka 2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fotogalerie/potapeni/jirka.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fotogalerie/potapeni/jirka_roman.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/menuIcon.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/menuIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sources/ORLICE2019.doc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styleMobile.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fotogalerie.html" beforeDir="false" afterPath="$PROJECT_DIR$/fotogalerie.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fotogalerie/jine.html" beforeDir="false" afterPath="$PROJECT_DIR$/fotogalerie/jine.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fotogalerie/jine/hawai.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fotogalerie/potapeni.html" beforeDir="false" afterPath="$PROJECT_DIR$/fotogalerie/potapeni.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fotogalerie/potapeni.html" beforeDir="false" afterPath="$PROJECT_DIR$/fotogalerie/orlice2019.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fotogalerie/styleAlbum.css" beforeDir="false" afterPath="$PROJECT_DIR$/fotogalerie/styleAlbum.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fotogalerie/voda.html" beforeDir="false" afterPath="$PROJECT_DIR$/fotogalerie/brigada.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fotogalerie/voda/voda.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fotogalerie/voda/voda2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fotogalerie/voda/voda3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/historie.html" beforeDir="false" afterPath="$PROJECT_DIR$/historie.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/informace.html" beforeDir="false" afterPath="$PROJECT_DIR$/informace.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kalendarAkci.html" beforeDir="false" afterPath="$PROJECT_DIR$/kalendarAkci.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kontakty.html" beforeDir="false" afterPath="$PROJECT_DIR$/kontakty.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/novinky.html" beforeDir="false" afterPath="$PROJECT_DIR$/novinky.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -47,44 +20,26 @@
       <file leaf-file-name="fotogalerie.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fotogalerie.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="88" column="14" selection-start-line="88" selection-start-column="14" selection-end-line="88" selection-end-column="14" />
+            <state relative-caret-position="418">
+              <caret line="80" column="36" selection-start-line="80" selection-start-column="36" selection-end-line="80" selection-end-column="36" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="brigada.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fotogalerie/brigada.html">
+      <file leaf-file-name="orlice2019.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/fotogalerie/orlice2019.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="20" column="7" lean-forward="true" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+            <state relative-caret-position="221">
+              <caret line="57" column="48" selection-start-line="57" selection-start-column="48" selection-end-line="57" selection-end-column="48" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/style.css">
+      <file leaf-file-name="styleAlbum.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fotogalerie/styleAlbum.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="2" lean-forward="true" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="styleMobile.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/styleMobile.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="141" column="23" lean-forward="true" selection-start-line="141" selection-start-column="23" selection-end-line="141" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="kontakty.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/kontakty.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="24">
-              <caret line="250" column="21" selection-start-line="250" selection-start-column="21" selection-end-line="250" selection-end-column="21" />
+            <state relative-caret-position="255">
+              <caret line="106" column="28" lean-forward="true" selection-start-line="106" selection-start-column="28" selection-end-line="106" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -119,7 +74,6 @@
         <option value="$PROJECT_DIR$/fotogalerie/2018/schuze.html" />
         <option value="$PROJECT_DIR$/fotogalerie/2018.html" />
         <option value="$PROJECT_DIR$/fotogalerie/jine.html" />
-        <option value="$PROJECT_DIR$/fotogalerie/styleAlbum.css" />
         <option value="$PROJECT_DIR$/fotogalerie/potapeni.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/style.css" />
@@ -129,10 +83,12 @@
         <option value="$PROJECT_DIR$/historie.html" />
         <option value="$PROJECT_DIR$/fotogalerie2.html" />
         <option value="$PROJECT_DIR$/fotogalerie/styleAlbumMobile.css" />
-        <option value="$PROJECT_DIR$/fotogalerie.html" />
         <option value="$PROJECT_DIR$/fotogalerie/brigada.html" />
         <option value="$PROJECT_DIR$/styleMobile.css" />
         <option value="$PROJECT_DIR$/kontakty.html" />
+        <option value="$PROJECT_DIR$/fotogalerie.html" />
+        <option value="$PROJECT_DIR$/fotogalerie/styleAlbum.css" />
+        <option value="$PROJECT_DIR$/fotogalerie/orlice2019.html" />
       </list>
     </option>
   </component>
@@ -163,6 +119,7 @@
     <panes>
       <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -184,12 +141,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
@@ -282,14 +239,17 @@
       <workItem from="1552842733879" duration="3645000" />
       <workItem from="1552931836993" duration="5556000" />
       <workItem from="1555417109576" duration="21205000" />
+      <workItem from="1556015649715" duration="45000" />
+      <workItem from="1559144586693" duration="3687000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61516000" />
+    <option name="totallyTimeSpent" value="65248000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -321,30 +281,30 @@
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.3298969" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24980484" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info id="Capture Tool" order="6" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.3298969" />
+      <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="right" id="Maven Projects" order="7" />
       <window_info id="Favorites" order="5" side_tool="true" />
     </layout-to-restore>
@@ -419,7 +379,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fotogalerie/potapeni.html">
+    <entry file="file://$PROJECT_DIR$/fotogalerie/orlice2019.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="918">
           <caret line="54" column="48" selection-start-line="54" selection-start-column="48" selection-end-line="54" selection-end-column="48" />
@@ -500,33 +460,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fotogalerie/potapeni.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="952">
-          <caret line="56" column="49" selection-start-line="56" selection-start-column="49" selection-end-line="56" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/google78f4693a51d4e8dd.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sources/menuIcon.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kontakty2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="145" column="23" lean-forward="true" selection-start-line="145" selection-start-column="23" selection-end-line="145" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kalendarAkci2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="46" column="250" lean-forward="true" selection-start-line="45" selection-start-column="13" selection-end-line="46" selection-end-column="250" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/google78f4693a51d4e8dd.html" />
+    <entry file="file://$PROJECT_DIR$/sources/menuIcon.png" />
+    <entry file="file://$PROJECT_DIR$/kontakty2.html" />
+    <entry file="file://$PROJECT_DIR$/kalendarAkci2.html" />
     <entry file="file://$PROJECT_DIR$/kalendarAkci.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
@@ -534,13 +471,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/novinky2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="57" column="23" lean-forward="true" selection-start-line="44" selection-start-column="13" selection-end-line="57" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/novinky2.html" />
     <entry file="file://$PROJECT_DIR$/novinky.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="262">
@@ -555,20 +486,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/historie2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="53" column="23" lean-forward="true" selection-start-line="44" selection-start-column="13" selection-end-line="53" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/informace2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="65" column="23" lean-forward="true" selection-start-line="51" selection-start-column="13" selection-end-line="65" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/historie2.html" />
+    <entry file="file://$PROJECT_DIR$/informace2.html" />
     <entry file="file://$PROJECT_DIR$/historie.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
@@ -583,52 +502,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fotogalerie/styleAlbum.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="113" column="11" selection-start-line="113" selection-start-column="11" selection-end-line="113" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fotogalerie2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="70" column="19" lean-forward="true" selection-start-line="58" selection-start-column="13" selection-end-line="70" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fotogalerie.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="88" column="14" selection-start-line="88" selection-start-column="14" selection-end-line="88" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fotogalerie/styleAlbumMobile.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="51" column="21" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/fotogalerie2.html" />
+    <entry file="file://$PROJECT_DIR$/fotogalerie/styleAlbumMobile.css" />
     <entry file="file://$PROJECT_DIR$/fotogalerie/brigada.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="20" column="7" lean-forward="true" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="2" lean-forward="true" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/styleMobile.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="141" column="23" lean-forward="true" selection-start-line="141" selection-start-column="23" selection-end-line="141" selection-end-column="23" />
+        <state relative-caret-position="340">
+          <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -636,6 +515,41 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="24">
           <caret line="250" column="21" selection-start-line="250" selection-start-column="21" selection-end-line="250" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styleMobile.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="141" column="23" selection-start-line="141" selection-start-column="23" selection-end-line="141" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fotogalerie.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="80" column="36" selection-start-line="80" selection-start-column="36" selection-end-line="80" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fotogalerie/styleAlbum.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="106" column="28" lean-forward="true" selection-start-line="106" selection-start-column="28" selection-end-line="106" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fotogalerie/orlice2019.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="57" column="48" selection-start-line="57" selection-start-column="48" selection-end-line="57" selection-end-column="48" />
         </state>
       </provider>
     </entry>

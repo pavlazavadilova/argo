@@ -87,7 +87,7 @@ body {
 }
 
 div[id^=image]:target {
-  width: 800px;
+  width: auto;
   height: 600px;
   z-index: 5000;
   top: 50px;
@@ -112,3 +112,88 @@ div#image-5 { left: 0; top: 200px; }
 div#image-6 { left: 300px; top: 200px; }
 div#image-7 { left: 600px; top: 200px; }
 div#image-8 { left: 900px; top: 200px; }
+
+div#image-9 { left: 0; top: 400px; }
+div#image-10 { left: 300px; top: 400px; }
+div#image-11 { left: 600px; top: 400px; }
+div#image-12 { left: 900px; top: 400px; }
+
+div#image-13 { left: 0; top: 600px; }
+div#image-14 { left: 300px; top: 600px; }
+div#image-15 { left: 600px; top: 600px; }
+div#image-16 { left: 900px; top: 600px; }
+
+div#image-17 { left: 0; top: 800px; }
+div#image-18 { left: 300px; top: 800px; }
+div#image-19 { left: 600px; top: 800px; }
+div#image-20 { left: 900px; top: 800px; }
+
+div#image-21 { left: 0; top: 1000px; }
+div#image-22 { left: 300px; top: 1000px; }
+div#image-23 { left: 600px; top: 1000px; }
+div#image-24 { left: 900px; top: 1000px; }
+
+div#image-25 { left: 0; top: 1200px; }
+div#image-26 { left: 300px; top: 1200px; }
+div#image-27 { left: 600px; top: 1200px; }
+div#image-28 { left: 900px; top: 1200px; }
+
+div#image-29 { left: 0; top: 1400px; }
+div#image-30 { left: 300px; top: 1400px; }
+div#image-31 { left: 600px; top: 1400px; }
+div#image-32 { left: 900px; top: 1400px; }
+
+div#image-33 { left: 0; top: 1600px; }
+div#image-34 { left: 300px; top: 1600px; }
+div#image-35 { left: 600px; top: 1600px; }
+div#image-36 { left: 900px; top: 1600px; }
+
+div#image-37 { left: 0; top: 1800px; }
+div#image-38 { left: 300px; top: 1800px; }
+div#image-39 { left: 600px; top: 1800px; }
+div#image-40 { left: 900px; top: 1800px; }
+
+div#image-41 { left: 0; top: 2000px; }
+div#image-42 { left: 300px; top: 2000px; }
+div#image-43 { left: 600px; top: 2000px; }
+div#image-44 { left: 900px; top: 2000px; }
+
+div#image-45 { left: 0; top: 2200px; }
+div#image-46 { left: 300px; top: 2200px; }
+div#image-47 { left: 600px; top: 2200px; }
+div#image-48 { left: 900px; top: 2200px; }
+
+div#image-49 { left: 0; top: 2400px; }
+div#image-50 { left: 300px; top: 2400px; }
+div#image-51 { left: 600px; top: 2400px; }
+div#image-52 { left: 900px; top: 2400px; }
+
+div#image-53 { left: 0; top: 2600px; }
+div#image-54 { left: 300px; top: 2600px; }
+div#image-55 { left: 600px; top: 2600px; }
+div#image-56 { left: 900px; top: 2600px; }
+
+div#image-57 { left: 0; top: 2800px; }
+div#image-58 { left: 300px; top: 2800px; }
+div#image-59 { left: 600px; top: 2800px; }
+div#image-60 { left: 900px; top: 2800px; }
+
+div#image-61 { left: 0; top: 3000px; }
+div#image-62 { left: 300px; top: 3000px; }
+div#image-63 { left: 600px; top: 3000px; }
+div#image-64 { left: 900px; top: 3000px; }
+
+div#image-65 { left: 0; top: 3200px; }
+div#image-66 { left: 300px; top: 3200px; }
+div#image-67 { left: 600px; top: 3200px; }
+div#image-68 { left: 900px; top: 3200px; }
+
+div#image-69 { left: 0; top: 3400px; }
+div#image-70 { left: 300px; top: 3400px; }
+div#image-71 { left: 600px; top: 3400px; }
+div#image-72 { left: 900px; top: 3400px; }
+
+div#image-73 { left: 0; top: 3600px; }
+div#image-74 { left: 300px; top: 3600px; }
+div#image-75 { left: 600px; top: 3600px; }
+div#image-76 { left: 900px; top: 3600px; }
