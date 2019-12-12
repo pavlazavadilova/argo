@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f6af5d6b-50c2-43ca-b75a-97670b370022" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/sources/PAG2019.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/informace.html" beforeDir="false" afterPath="$PROJECT_DIR$/informace.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/novinky.html" beforeDir="false" afterPath="$PROJECT_DIR$/novinky.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,15 +21,6 @@
         <option value="CSS File" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>img</find>
-      <find>im</find>
-      <find>form</find>
-      <find>h4</find>
-      <find>ex</find>
-    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -42,21 +38,21 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../wishList" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/sources" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\zavad\Documents\argo\sources" />
-      <recent name="C:\Users\zavad\Documents\argo\fotogalerie" />
-      <recent name="C:\Users\zavad\Documents\argo" />
-      <recent name="C:\Users\zavad\Documents\argo\fotogalerie\jine" />
-      <recent name="C:\Users\zavad\Documents\argo\fotogalerie\potapeni" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\zavad\Documents\argo\fotogalerie" />
       <recent name="C:\Users\zavad\Documents\argo\fotogalerie\2018" />
       <recent name="C:\Users\zavad\Documents\argo\fotogalerie\voda" />
+      <recent name="C:\Users\zavad\Documents\argo\fotogalerie\jine" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\zavad\Documents\Projects\argo\sources" />
+      <recent name="C:\Users\zavad\Documents\argo\sources" />
+      <recent name="C:\Users\zavad\Documents\argo\fotogalerie" />
+      <recent name="C:\Users\zavad\Documents\argo" />
       <recent name="C:\Users\zavad\Documents\argo\fotogalerie\jine" />
     </key>
   </component>
@@ -120,6 +116,7 @@
       <workItem from="1559144586693" duration="5125000" />
       <workItem from="1574536590236" duration="220000" />
       <workItem from="1574538556939" duration="361000" />
+      <workItem from="1576179851142" duration="1550000" />
     </task>
     <servers />
   </component>
@@ -131,7 +128,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

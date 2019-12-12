@@ -106,6 +106,7 @@ section header {
   font-family: 'Arial';
   text-transform: uppercase;
   padding-top: 50px;
+  padding-bottom: 30px;
   font-size: 2rem;
   color: white;
   letter-spacing: 4px;
@@ -113,19 +114,19 @@ section header {
 }
 
 article {
-  padding-top: 30px;
+  padding-top: 10px;
+  padding-bottom: 40px;
   font-size: 20px;
   color: white;
   text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
   line-height: 30px;
 }
 
-article header {
-  font-family: 'Arial';
-  padding-top: 0px;
-  font-size: 30px;
+article-header {
+  padding-top: 30px;
+  font-size: 25px;
+  font-weight: bold;
   color: white;
-  letter-spacing: 4px;
 }
 
 article ul {
