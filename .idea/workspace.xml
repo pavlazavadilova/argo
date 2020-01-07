@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f6af5d6b-50c2-43ca-b75a-97670b370022" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/sources/PAG2019.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/Pozvanka.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/informace.html" beforeDir="false" afterPath="$PROJECT_DIR$/informace.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/historie.html" beforeDir="false" afterPath="$PROJECT_DIR$/historie.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/novinky.html" beforeDir="false" afterPath="$PROJECT_DIR$/novinky.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,17 +41,17 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\zavad\Documents\argo\fotogalerie" />
-      <recent name="C:\Users\zavad\Documents\argo\fotogalerie\2018" />
-      <recent name="C:\Users\zavad\Documents\argo\fotogalerie\voda" />
-      <recent name="C:\Users\zavad\Documents\argo\fotogalerie\jine" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\zavad\Documents\Projects\argo\sources" />
       <recent name="C:\Users\zavad\Documents\argo\sources" />
       <recent name="C:\Users\zavad\Documents\argo\fotogalerie" />
       <recent name="C:\Users\zavad\Documents\argo" />
+      <recent name="C:\Users\zavad\Documents\argo\fotogalerie\jine" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\zavad\Documents\argo\fotogalerie" />
+      <recent name="C:\Users\zavad\Documents\argo\fotogalerie\2018" />
+      <recent name="C:\Users\zavad\Documents\argo\fotogalerie\voda" />
       <recent name="C:\Users\zavad\Documents\argo\fotogalerie\jine" />
     </key>
   </component>
@@ -117,6 +116,7 @@
       <workItem from="1574536590236" duration="220000" />
       <workItem from="1574538556939" duration="361000" />
       <workItem from="1576179851142" duration="1550000" />
+      <workItem from="1578420447247" duration="1015000" />
     </task>
     <servers />
   </component>
