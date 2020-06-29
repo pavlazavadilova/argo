@@ -2,27 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f6af5d6b-50c2-43ca-b75a-97670b370022" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/fotogalerie/brigada0220/Kontejner po praci.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fotogalerie/brigada0220/Mistnost s parketami po uklidu.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fotogalerie/brigada0220/Mistnost s parketami pred uklidem.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fotogalerie/brigada0220/Nova mistnost pro kompresor po uklidu.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fotogalerie/brigada0220/Nova mistnost pro kompresor pred uklidem.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fotogalerie/brigada0220/Poskozene a shnile oblozeni pod strechou bude nutne vymenit 1.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fotogalerie/brigada0220/Poskozene a shnile oblozeni pod strechou bude nutne vymenit 2.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fotogalerie/brigada0220/Poskozene a shnile oblozeni pod strechou bude nutne vymenit 3.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fotogalerie/brigada0220/Poskozene a shnile oblozeni pod strechou bude nutne vymenit 4.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fotogalerie/brigada0220/Pristaveny kontejner pro odvoz odpadu.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fotogalerie/brigada0220/Socialni mistnost po uklidu.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fotogalerie/brigada0220/Socialni mistnost pred uklidem.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fotogalerie/brigada0220/Velka mistnost po uklidu.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fotogalerie/brigada0220/Velka mistnost pred uklidem 1.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fotogalerie/brigada0220/Velka mistnost pred uklidem 2.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fotogalerie/brigada0220/Velka mistnost pred uklidem 3.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fotogalerie/brigada_02_20.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fotogalerie.html" beforeDir="false" afterPath="$PROJECT_DIR$/fotogalerie.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fotogalerie/styleAlbum.css" beforeDir="false" afterPath="$PROJECT_DIR$/fotogalerie/styleAlbum.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/novinky.html" beforeDir="false" afterPath="$PROJECT_DIR$/novinky.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kalendarAkci.html" beforeDir="false" afterPath="$PROJECT_DIR$/kalendarAkci.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kontakty.html" beforeDir="false" afterPath="$PROJECT_DIR$/kontakty.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -133,7 +117,8 @@
       <workItem from="1574538556939" duration="361000" />
       <workItem from="1576179851142" duration="1550000" />
       <workItem from="1578420447247" duration="1359000" />
-      <workItem from="1581965829375" duration="2683000" />
+      <workItem from="1581965829375" duration="3552000" />
+      <workItem from="1593420362375" duration="510000" />
     </task>
     <servers />
   </component>
